@@ -1,0 +1,10 @@
+@"
+# Ignore Jupyter Notebook checkpoints and Python cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+.env
+"@ | Out-File -Encoding utf8 -FilePath .gitignore
